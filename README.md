@@ -35,7 +35,7 @@ The theme is responsive and works seamlessly across multiple screen resolutions 
 
 ### Thanks!
 
-If you have any questions or any suggestions for improvements, drop me a line at (bharani@resumonk.com)[mailto:bharani@resumonk.com]
+If you have any questions or any suggestions for improvements, drop me a line at [bharani@resumonk.com](mailto:bharani@resumonk.com)
 
 
 ---
