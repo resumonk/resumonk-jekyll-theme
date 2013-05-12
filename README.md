@@ -41,5 +41,5 @@ If you have any questions or any suggestions for improvements, drop me a line at
 ---
 
 
-Bharani Muthukumaraswamy
+Bharani Muthukumaraswamy <br/>
 [Resumonk](http://www.resumonk.com)
