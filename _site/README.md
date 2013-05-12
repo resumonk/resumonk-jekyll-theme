@@ -7,11 +7,11 @@ At [Resumonk](http://www.resumonk.com), we have started using Jekyll as our blog
 
 ---
 
-![index page](http://i42.tinypic.com/33kf1bl.jpg)
+![index page](http://s22.postimg.org/fo9lul0up/blog_index.jpg)
 
 ---
 
-![blog page](http://i39.tinypic.com/aya9hu.jpg)
+![blog page](http://s8.postimg.org/gwidoe2mt/blog_post_page.jpg)
 
 
 ---
@@ -35,11 +35,11 @@ The theme is responsive and works seamlessly across multiple screen resolutions 
 
 ### Thanks!
 
-If you have any questions or any suggestions for improvements, drop me a line at (bharani@resumonk.com)[mailto:bharani@resumonk.com]
+If you have any questions or any suggestions for improvements, drop me a line at [bharani@resumonk.com](mailto:bharani@resumonk.com)
 
 
 ---
 
 
-Bharani Muthukumaraswamy
+Bharani Muthukumaraswamy <br/>
 [Resumonk](http://www.resumonk.com)
