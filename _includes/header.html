@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="/stylesheets/normalize.css" />
+    <link rel="stylesheet" href="/stylesheets/app.css" />
+    <link rel="stylesheet" href="/stylesheets/custom.css" />
+
+
+    <script src="/javascripts/vendor/custom.modernizr.js"></script>
+
+</head>
+<body>
+
+    <div class="contain-to-grid">
+        <nav class="top-bar">
+            <div class="row">
+                
+            </div>
+            <ul class="title-area">
+                <li class="name">
+                    <h1 id="logo"><a href="/">{{ site.title }}</a></h1>     
+                </li>
+
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+
+            <section class="top-bar-section">
+                <!-- Right Nav Section -->
+                <ul class="right">
+
+                    {% include links.html %}                    
+
+                </ul>
+            </section>
+        </nav>
+    
+
+    </div>
+
+    <!-- Header Bar -->
+    <header id="main">
+        <div class="row wrapper">
+            
+
+            <div class="large-10 small-12 large-centered columns">              
+                <h2>
+                    {{ site.introduction }}
+                </h2>
+                <h4 class="subheader">
+                    {{ site.description }}
+                </h4>
+
+            </div>
+        </div>
+    </header>
+    <div class="section_divider"></div>
+    
+
+    <!-- End Header -->
+
+
+

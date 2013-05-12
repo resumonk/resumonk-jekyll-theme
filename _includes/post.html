@@ -1,0 +1,83 @@
+{% if page.is_index %}{% assign content = post.content %}{% endif %}
+
+    <div class="row">
+    <article class="large-12 small-12 columns post {% unless page.is_index %} single_post {% endunless %} " role="content">
+        
+
+        <div class="row heading_wrapper">
+            <div class="large-9 columns">
+                {% if post.title %}<h2 class="title">{% if page.is_index %}<a href="{{ post.url }}">{{ post.title }}</a>{% else %}{{ post.title}}{% endif %}</h2>{% endif %}  
+            </div>
+
+            <div class="large-3 columns">
+
+                <h6 class="subheader date">{{ post.date | date:'%d %B %Y' }}</h6>
+
+            </div>
+        </div>
+            
+
+        <div class="row">
+            <div class="large-12 small-12 columns text">
+                {% if page.is_index %}
+                    {% if post.summary %}
+                        <div class="summary">
+                            {{ post.summary }}
+                        </div>
+                    {% else %}
+                        {{ content }}
+                    {% endif %}
+
+                {% else %}
+                    {{ content }}
+                
+
+                    <div class="row">
+                        <div class="large-6 columns">
+                            <div class="panel tags">
+                                <h5>Tags</h5>
+                                <h6 class="subheader">
+                                    {% for tag in post.tags %}
+                                    {{ tag }}, 
+                                    {% endfor %}
+                                </h6>
+                            </div>
+                        </div>  
+
+                        <div class="large-6 columns">
+                            <div class="example5">
+                                <div class="shareme" data-url="{{ site.url }}{{ post.url }}" data-text="{{ post.title }}"></div>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    
+                {% endif %} 
+            </div>
+            
+        </div>
+
+        {% if page.is_index %}
+            <div class="row">
+                <div class="large-12 columns">
+                    <a href="{{ post.url }}" class="button right small shadow">Continue Reading  &rarr;</a>
+                </div>
+            </div>
+            
+        {% endif %}
+
+
+        {% unless page.is_index %}
+        
+            {% if site.disqus_shortname %}
+                {% include disqus.html %}
+            {% endif %}
+        
+        {% endunless %}
+        
+
+    </article>
+    </div>
+
+    
+     

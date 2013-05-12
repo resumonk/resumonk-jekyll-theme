@@ -1,0 +1,20 @@
+title:            Resumonk
+introduction:     Welcome to the Resumonk Blog 
+description:      Resumonk helps you create a beautiful & professional resume in minutes and stand out from rest of the job seekers.
+url:              # Site url. e.g: http://www.resumonk.com/blog/
+disqus_shortname: # Your disqus username 
+paginate:         5
+
+links: 
+  - name:         Twitter
+    url:          http://twitter.com/resumonk
+  - name:         Email
+    url:          mailto:bharani@resumonk.com
+  - name:         GitHub
+    url:          http://github.com/bharani91
+
+auto:             true
+permalink:        pretty
+markdown:         rdiscount
+rdiscount:
+  extensions:     [smart]

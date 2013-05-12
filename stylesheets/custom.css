@@ -1,0 +1,362 @@
+/* -----------------------------------------------
+
+    Template: Resumonk Blog v2.0;
+    Author: Bharani Muthukumaraswamy;
+    URL: http://www.resumonk.com/blog
+    Tags: Clean, dark, foundation, responsive;
+
+-------------------------------------------------- */
+
+
+/*=====================================
+=            Shared Styles            =
+=====================================*/
+
+body {
+    background: url("../images/new_bg.jpg") left top repeat;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.button.shadow {
+    background: #0e7ac4;
+    font-weight: 700;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+
+    border-color: #176091;
+
+    -webkit-box-shadow: 0 5px 0 #176091, inset 0 1px 0 rgba(255, 255, 255, 0.6);
+    -moz-box-shadow: 0 5px 0 #176091, inset 0 1px 0 rgba(255, 255, 255, 0.6);
+    -ms-box-shadow: 0 5px 0 #176091, inset 0 1px 0 rgba(255, 255, 255, 0.6);
+    -o-box-shadow: 0 5px 0 #176091, inset 0 1px 0 rgba(255, 255, 255, 0.6);
+    box-shadow: 0 5px 0 #176091, inset 0 1px 0 rgba(255, 255, 255, 0.6); 
+}
+
+.button.shadow:hover {
+    background: #0d6aa8;
+}
+
+.button.shadow:active {
+    position: relative;
+    top: 2px;
+    -webkit-box-shadow: 0 2px 0 #176091;
+    -moz-box-shadow: 0 2px 0 #176091;
+    -ms-box-shadow: 0 2px 0 #176091;
+    -o-box-shadow: 0 2px 0 #176091;
+    box-shadow: 0 2px 0 #176091; 
+}
+
+.section_divider {
+    background: url("../images/section_divider.png") left top repeat-x;
+    height: 16px;
+    width: 100%;
+}
+
+#disqus_thread {
+    margin-top: 30px;
+    background: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.shareme .buttons {
+    background transparent;
+}
+.shareme .button {
+    float:left;
+    max-width:50px;
+    margin:0 10px 0 0;
+    padding-left: 5px !important;
+    background: none;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.shareme .button.delicious img {
+    background: transparent;
+    border: none;
+}
+
+
+
+
+/*-----  End of Shared Styles  ------*/
+
+
+
+
+/*==============================
+=            Header            =
+==============================*/
+
+#main {
+    background: url("../images/header_bg.jpg") left top repeat;
+}
+
+#main .wrapper {
+    padding: 20px 0;
+}
+
+
+#main .wrapper h2, #main .wrapper h4.subheader {
+    margin: 0;
+    padding 0;
+}
+
+#main .wrapper h2 {
+    text-align: center;
+    color: #fff;
+}
+
+#main .wrapper h4.subheader {
+    text-align: center;
+    color: #bec6cb;
+}
+
+
+/*-----  End of Header  ------*/
+
+
+
+
+
+/*===============================
+=            Content            =
+===============================*/
+
+.content {
+    margin: 40px 0;
+    background: #64758a;
+    border: 1px solid #000;
+    border: 1px solid rgba(0,0,0,0.5);
+
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+
+
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    -ms-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    -o-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+
+    padding-bottom: 60px;
+}
+
+.pagination-centered {
+    font-size: 20px !important;
+    font-weight: bold !important;    
+}
+
+ul.pagination li p {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+ul.pagination li.arrow a {
+    color: #175c70;
+}
+
+.content .heading_wrapper {
+    border-top: 1px dashed #fff;
+    border-bottom: 1px dashed #fff;
+    border-top: 1px dashed rgba(255, 255, 255, 0.2);
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.content .single_post .heading_wrapper {
+    margin-bottom: 30px;
+}
+
+.content .heading_wrapper .date {
+    text-align: right;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #175c70;
+}
+
+.content .title {
+    color: #fff;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+    font-size: 34px;
+}
+
+.content .title a {
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: block;
+    padding-left: 0;
+    margin-left: 0;
+
+}
+
+.content .title:hover {
+    border-color: #becace;
+}
+
+.content .title:hover a {
+    color: #becace;
+}
+
+.content .text h2, .content .text h3, .content .text h4, .content .text h5, .content .text h6 {
+    color: #e1eff4;
+}
+
+.content .text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #becace;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+
+.content .text h3 {
+    font-size: 24px;
+}
+
+.content .text h4 {
+    font-size: 18px;
+}
+
+.content .text h5 {
+    font-size: 16px;
+}
+
+.content .text h6 {
+    font-size: 14px;
+}
+
+.content .text ul, .content .text ol {
+    margin-left: 20px;
+}
+
+.content .text img {
+    display: block;
+    margin: 20px auto;
+    padding: 8px;
+    background: #175c70;
+    border: 1px solid  #134c5b;
+}
+
+
+.content .post {
+    margin-bottom: 50px;
+    padding: 0 40px;
+}
+
+
+.content .panel {
+    background: #175c70;
+    border-color: #134c5b;
+    padding: 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.content .panel img {
+    display: block;
+    margin: 0 auto;
+}
+
+.content .tags {
+    margin: 10px 0;
+}
+
+.content .tags h5, .content .tags h6 {
+    color: #fff;
+    text-shadow: none;
+    display: inline;
+}
+
+.content .tags h5 {
+    padding-right: 20px;
+    color: #becace;
+}
+
+
+.content article .text a {
+    padding-bottom: 1px;
+    border-bottom: 1px dashed #fff;
+    color: #fff;
+}
+
+.content article .text a:hover {
+    border-bottom-style: solid;
+}
+
+
+
+/*-----  End of Content  ------*/
+
+
+
+
+/*==============================
+=            Footer            =
+==============================*/
+
+footer.main {
+    color: #bec6cb;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+hr.dark {
+    border-color: #2b7f96;
+}
+ 
+
+
+/*-----  End of Footer  ------*/
+
+
+
+/*=====================================
+=            Media Queries            =
+=====================================*/
+
+@media all and (max-width: 940px) {
+    #main {
+        margin-top: -30px;
+    }
+}
+
+/*-----  End of Media Queries  ------*/
+
+
+
+

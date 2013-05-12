@@ -1,0 +1,42 @@
+    <hr class="dark">
+    <footer class="main row">
+        <div class="large-12 small-12 columns">
+            &copy; {{ site.title }}. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="/javascripts/vendor/jquery.js"></script> 
+    <script src="/javascripts/vendor/jquery.sharrre-1.3.4.js"></script> 
+    <script src="/javascripts/foundation/foundation.js"></script> 
+    <script src="/javascripts/foundation/foundation.dropdown.js"></script>
+    <script src="/javascripts/foundation/foundation.placeholder.js"></script>
+    <script src="/javascripts/foundation/foundation.topbar.js"></script>
+
+
+    <script>
+        $(document).foundation();
+        $('.shareme').sharrre({
+            share: {
+                googlePlus: true,
+                facebook: true,
+                twitter: true,
+                digg: true,
+                stumbleupon: true,
+                linkedin: true
+            },
+            buttons: {
+                googlePlus: {size: 'tall', annotation:'bubble'},
+                facebook: {layout: 'box_count'},
+                twitter: {count: 'vertical'},
+                digg: {type: 'DiggMedium'},
+                stumbleupon: {layout: '5'},
+                linkedin: {counter: 'top'}
+            },
+            enableHover: false,
+            enableCounter: false,
+            enableTracking: true
+        });   
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+
+{% for link in site.links %}
+
+    <li>
+        <a href="{{ link.url }}" title="{{ link.name }}">
+            {{ link.name }}
+        </a>
+    </li>
+
+    <li class="divider"></li>
+	
+{% endfor %}

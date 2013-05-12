@@ -1,0 +1,47 @@
+---
+layout: nil
+is_index: true
+---
+    {% include header.html %}
+
+    
+    <!-- Main Page Content and Sidebar -->
+    <div class="row">
+
+        <section class="large-12 small-12 columns">
+            <div class="content">
+                
+                {% for post in paginator.posts %}
+                    {% include post.html %}
+                {% endfor %}
+
+
+                <div class="pagination-centered">
+                    <ul class="pagination">
+                        {% if paginator.previous_page %}
+                        {% if paginator.previous_page == 1 %}
+                        <li class="arrow previous"><a href="{{ linkhome }}/">&laquo; Previous</a></li>
+                        {% else %}
+                        <li class="arrow previous"><a href="/page{{ paginator.previous_page }}">&laquo; Previous</a></li>
+                        {% endif %}
+                        {% endif %}
+                        <li><p>Page {{ paginator.page }} of {{ paginator.total_pages }}</p></li>
+                        {% if paginator.next_page %}
+                        <li class="arrow next"><a href="/page{{ paginator.next_page }}">Next &raquo;</a></li>
+                        {% endif %}
+
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+    <!-- End Main Content and Sidebar -->
+
+
+
+    
+    
+
+{% include footer.html %}
