@@ -1,7 +1,7 @@
 Resumonk Blog Template
 ======================
 
-At [Resumonk](http://www.resumonk.com), we have started using Jekyll as our blogging platform. I've just finished designing a Jekyll theme to match our website's design. Since there aren't many Jekyll themes out there, I thought I'd release this in the public domain. I hope you find this useful.
+At [Resumonk](http://www.resumonk.com), we have started using Jekyll as our blogging platform. We've just finished designing a Jekyll theme to match our website's design. Since there aren't many Jekyll themes out there, we thought we'd release this in the public domain. we hope you find this useful.
 
 #### Here's how this theme looks - [Demo](http://www.resumonk.com/blog)
 
@@ -35,7 +35,7 @@ The theme is responsive and works seamlessly across multiple screen resolutions 
 
 ### Thanks!
 
-If you have any questions or any suggestions for improvements, drop me a line at [bharani@resumonk.com](mailto:bharani@resumonk.com)
+If you have any questions or any suggestions for improvements, drop us a line at [support@resumonk.com](mailto:support@resumonk.com)
 
 
 ---
