@@ -7,11 +7,11 @@ At [Resumonk](http://www.resumonk.com), we have started using Jekyll as our blog
 
 ---
 
-![index page](http://i42.tinypic.com/33kf1bl.jpg)
+![index page](http://s22.postimg.org/fo9lul0up/blog_index.jpg)
 
 ---
 
-![blog page](http://i39.tinypic.com/aya9hu.jpg)
+![blog page](http://s8.postimg.org/gwidoe2mt/blog_post_page.jpg)
 
 
 ---
