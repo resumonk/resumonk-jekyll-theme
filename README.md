@@ -16,17 +16,15 @@ At [Resumonk](http://www.resumonk.com), we have started using Jekyll as our blog
 
 ---
 
-This theme uses Open Sans provided by Google Web Fonts and the Foundation 4 framework provided by Zurb.
-
-The theme is responsive and works seamlessly across multiple screen resolutions and devices.
+This theme uses Open Sans provided by Google Web Fonts and the Foundation 4 framework provided by Zurb. The theme is responsive and works seamlessly across multiple screen resolutions and devices.
 
 ---
 
 ### Get started
 
-1. [Fork the repository](https://github.com/bharani91/resumonk_blog/fork).
+1. [Fork the repository](https://github.com/resumonk/resumonk-jekyll-theme/fork).
 2. Clone the repository to your computer. 
-3. `git clone https://github.com/bharani91/resumonk_blog`
+3. `git clone https://github.com/resumonk/resumonk-jekyll-theme`
 4. Build and run jekyll using `jekyll server` and then point your browser to http://localhost:4000.
 5. To customize your blog, change the parameters in `_config.yml`
 
